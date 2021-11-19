@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".earing01_jump"
+    android:orientation="vertical"
+    android:background="@drawable/mall">
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/earing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/earing"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/shopppingCar"
+            android:layout_marginTop="10dp"
+            android:layout_width="129dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="121dp"
+            android:background="#3FE492"
+            android:text="加入购物车"
+            android:textColor="#F9F9F9" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

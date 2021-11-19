@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#E91E63"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:shadowColor="#AE72B8"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="10"
+        android:text="阴影效果"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="#2E4A81"
+        android:gravity="center"
+        android:shadowColor="#AE72B8"
+        android:shadowDx="30"
+        android:shadowDy="30"
+        android:shadowRadius="10"
+        android:text="https://www.baidu.com/"
+        android:autoLink="web"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+</LinearLayout>
